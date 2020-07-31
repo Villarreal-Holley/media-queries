@@ -1,49 +1,77 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    /*width: 100vw;*/
+@media screen and (max-width: 576px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        margin: 1em;
+    }
+
+    .alert-info {
+        width: 95%;
+        display: flex;
+        background-color: #bef6f0;
+        border: 1px solid grey;
+        /*padding: 2em;*/
+        justify-content: center;
+        align-items: center;
+        height: 3em;
+        margin: auto;
+        font-size: 1em;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        background-color: lightgray;
+        margin: .5em 0;
+        justify-content: space-around;
+        width: 95%;
+        height: 2.5em;
+        align-items: center;
+        font-size: 1em;
+    }
+
+    .alert-info a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3em;
+        margin: 10px auto;
+    }
+
+    .header-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: .5em 0;
+    }
+
+    img {
+        max-width: 95%;
+        max-height: 50%;
+    }
+
 }
-
-/*@media screen and (max-width:576px) {*/
-
-
-/*}*/
-
-
-
-.alert-info {
-    background-color: #bef6f0;
-    border: 1px solid grey;
-    padding: 2em;
-
-}
-
-nav {
-    display: flex;
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
-    align-items: center;
-    margin: 0 1em;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-}
-
-li {
-    background-color: darkgray;
-    padding: 1em;
-    margin: 1em 0;
-}
-
-.alert-info a {
-    text-decoration: none;
-    color: black;
-}
-
-
