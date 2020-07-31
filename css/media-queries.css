@@ -80,22 +80,18 @@ footer {
     .alert-info {
         display: none;
     }
-    body {
-        justify-content: center;
-    }
+
     li {
         flex-direction: row;
         background-color: white;
         padding: 0 1em;
     }
     h1 {
-        margin-left: .3em;
-        width: 25%;
+        width: 20%;
         display: inline-block;
     }
     nav {
         float: right;
-        margin-right: .5em;
     }
     nav ul {
         flex-direction: row;
@@ -103,20 +99,23 @@ footer {
     nav a {
         margin-top: 2.3em;
     }
+    .header-img {
+        width: 100%;
+    }
     img {
         width: 100%;
-        margin: 1em 0;
+        margin: 3em 0;
     }
     h2 {
         margin: 1em 0;
     }
     .main {
-        margin: 0 1em;
         width: 60%;
         float: left;
     }
     .sub-section {
-        margin-right: 1em;
         width: 25%;
+        float: right;
     }
+
 }
