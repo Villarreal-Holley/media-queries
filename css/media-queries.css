@@ -1,3 +1,49 @@
-@media screen and (min-width:576px) {
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /*width: 100vw;*/
+}
+
+/*@media screen and (max-width:576px) {*/
+
+
+/*}*/
+
+
+
+.alert-info {
+    background-color: #bef6f0;
+    border: 1px solid grey;
+    padding: 2em;
 
 }
+
+nav {
+    display: flex;
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    align-items: center;
+    margin: 0 1em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+li {
+    background-color: darkgray;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.alert-info a {
+    text-decoration: none;
+    color: black;
+}
+
+
