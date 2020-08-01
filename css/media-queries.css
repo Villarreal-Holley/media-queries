@@ -77,6 +77,9 @@ footer {
     font-size: small;
 }
 @media screen and (min-width: 577px) {
+    body {
+        margin: 0;
+    }
     .alert-info {
         display: none;
     }
@@ -87,11 +90,13 @@ footer {
         padding: 0 1em;
     }
     h1 {
+        margin-left: .5rem;
         width: 20%;
         display: inline-block;
     }
     nav {
         float: right;
+        margin-right: 2rem;
     }
     nav ul {
         flex-direction: row;
@@ -110,12 +115,17 @@ footer {
         margin: 1em 0;
     }
     .main {
+        margin-left: 3rem;
         width: 60%;
         float: left;
     }
     .sub-section {
+        margin-right: 3rem;
         width: 25%;
         float: right;
+    }
+    footer {
+        margin-left: 3rem;
     }
 
 }
