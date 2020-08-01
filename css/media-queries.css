@@ -78,7 +78,7 @@ footer {
 }
 @media screen and (min-width: 577px) {
     body {
-        margin: 0;
+        margin: 1em 0;
     }
     .alert-info {
         display: none;
@@ -90,8 +90,8 @@ footer {
         padding: 0 1em;
     }
     h1 {
-        margin-left: .5rem;
-        width: 20%;
+        margin-left: .2em;
+        width: 19%;
         display: inline-block;
     }
     nav {
@@ -106,16 +106,18 @@ footer {
     }
     .header-img {
         width: 100%;
+        margin-left: .3em;
     }
     img {
         width: 100%;
         margin: 3em 0;
     }
     h2 {
-        margin: 1em 0;
+        margin: .5em 0 2em 0;
+
     }
     .main {
-        margin-left: 3rem;
+        margin-left: 3em;
         width: 60%;
         float: left;
     }
