@@ -77,9 +77,21 @@ section {
 }
 footer {
     display: flex;
+    flex-direction: column-reverse;
     width: 95%;
     margin: 8em auto auto auto;
     font-size: small;
+    justify-content: center;
+    align-items: center
+;
+}
+#social-media-links {
+    display: flex;
+
+}
+i {
+    display: flex;
+    margin: 1em 1em;
 }
 @media screen and (min-width: 577px) {
     body {
