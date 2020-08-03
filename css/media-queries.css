@@ -5,7 +5,6 @@
 }
 body {
     margin: 1em;
-
 }
 .alert-info {
     width: 95%;
@@ -82,12 +81,10 @@ footer {
     margin: 8em auto auto auto;
     font-size: small;
     justify-content: center;
-    align-items: center
-;
+    align-items: center;
 }
 #social-media-links {
     display: flex;
-
 }
 i {
     display: flex;
