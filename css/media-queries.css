@@ -90,13 +90,13 @@ footer {
         padding: 0 1em;
     }
     h1 {
-        margin-left: .2em;
-        width: 19%;
+        text-align: left;
+        margin-left: .8em;
         display: inline-block;
     }
     nav {
         float: right;
-        margin-right: 2rem;
+        margin-right: 1.7em;
     }
     nav ul {
         flex-direction: row;
@@ -117,12 +117,13 @@ footer {
 
     }
     .main {
-        margin-left: 3em;
+        text-align: left;
+        margin-left: 2.5em;
         width: 60%;
         float: left;
     }
     .sub-section {
-        margin-right: 3rem;
+        margin-right: 3em;
         width: 25%;
         float: right;
     }
