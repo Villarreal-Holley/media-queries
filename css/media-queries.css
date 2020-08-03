@@ -5,6 +5,7 @@
 }
 body {
     margin: 1em;
+
 }
 .alert-info {
     width: 95%;
@@ -57,6 +58,10 @@ h1 {
 video {
     max-width: 95%;
     max-height: 75%;
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    border: 1px solid grey;
 }
 h2 {
     margin: .5em 0;
@@ -79,6 +84,7 @@ footer {
 @media screen and (min-width: 577px) {
     body {
         margin: 1em 0;
+
     }
     .alert-info {
         display: none;
